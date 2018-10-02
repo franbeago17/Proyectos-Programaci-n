@@ -8,31 +8,36 @@ public class Ejercicio2º {
 		String str = JOptionPane.showInputDialog("Introduzca el primer numero: ");
 		int var1 = Integer.parseInt(str);
 		if (var1<0) {
-			System.out.println("ERROR.No se pueden introducir numeros negativos.");
+			JOptionPane.showMessageDialog(null,"ERROR.No se pueden introducir numeros negativos.");
+			System.exit(0); //Te hace salir del programa.
 		}
 		else {
 			str = JOptionPane.showInputDialog("Introduzca el segundo numero: ");
 			int var2 = Integer.parseInt(str);
 			if (var2<0) {
-			System.out.println("\n ERROR.No se pueden introducir numeros negativos.");
+				JOptionPane.showMessageDialog(null,"ERROR.No se pueden introducir numeros negativos.");
+				System.exit(0);
 		}
 			else {
 				str = JOptionPane.showInputDialog("Introduzca el tercer numero: ");
 				int var3 = Integer.parseInt(str);
 				if (var3<0) {
-				System.out.println("\n ERROR.No se pueden introducir numeros negativos.");
+					JOptionPane.showMessageDialog(null,"ERROR.No se pueden introducir numeros negativos.");
+					System.exit(0);
 		}
 				else {
 					str = JOptionPane.showInputDialog("Introduzca el cuarto numero: ");
 					int var4 = Integer.parseInt(str);
 					if (var4<0) {
-					System.out.println("\n ERROR.No se pueden introducir numeros negativos.");
+						JOptionPane.showMessageDialog(null,"ERROR.No se pueden introducir numeros negativos.");
+						System.exit(0);
 		}
 					else {
 						str = JOptionPane.showInputDialog("Introduzca el quinto numero: ");
 						int var5 = Integer.parseInt(str);
 						if (var5<0) {
-						System.out.println("\n ERROR.No se pueden introducir numeros negativos.");
+							JOptionPane.showMessageDialog(null,"ERROR.No se pueden introducir numeros negativos.");
+							System.exit(0);
 		}
 						else {
 		
