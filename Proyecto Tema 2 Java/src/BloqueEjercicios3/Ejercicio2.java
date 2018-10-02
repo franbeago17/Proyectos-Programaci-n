@@ -1,12 +1,12 @@
-package BloqueEjercicios3º;
+package BloqueEjercicios3;
 
 import javax.swing.JOptionPane;
 
-public class Ejercicio2º {
+public class Ejercicio2 {
 
 	public static void main(String[] args) {
 		String menu = "MENU\n"
-				+ "1.- Suma de dos números\n"
+				+ "1.- Suma de dos numeros\n"
 				+ "2.- Resta de dos numeros";
 		int opcion=Integer.parseInt(JOptionPane.showInputDialog(menu));
 		if (opcion<1 || opcion>2) {

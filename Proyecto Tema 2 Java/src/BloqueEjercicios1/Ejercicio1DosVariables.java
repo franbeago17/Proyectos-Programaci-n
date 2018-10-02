@@ -1,4 +1,4 @@
-package BloqueEjercicios1º;
+package BloqueEjercicios1;
 
 import javax.swing.JOptionPane;
 

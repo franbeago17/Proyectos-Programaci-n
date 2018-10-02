@@ -1,8 +1,8 @@
-package BloqueEjercicios2º;
+package BloqueEjercicios2;
 
 import javax.swing.JOptionPane;
 
-public class Ejercicio2º {
+public class Ejercicio2 {
 	public static void main(String[] args) {
 		
 		String str = JOptionPane.showInputDialog("Introduzca el primer numero: ");

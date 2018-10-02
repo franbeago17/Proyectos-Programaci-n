@@ -1,8 +1,8 @@
-package BloqueEjercicios3º;
+package BloqueEjercicios3;
 
 import javax.swing.JOptionPane;
 
-public class Ejercicio1º {
+public class Ejercicio1 {
 	public static void main(String[] args) {
 	
 		int num=Integer.parseInt(JOptionPane.showInputDialog("Introduzca un numero: "));

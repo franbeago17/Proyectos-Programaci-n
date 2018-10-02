@@ -2,7 +2,7 @@ import java.awt.JobAttributes;
 
 import javax.swing.JOptionPane;
 
-public class Ejercicio1º {
+public class Ejercicio1 {
 
 	public static void main(String[] args) {
 		
