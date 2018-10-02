@@ -17,7 +17,7 @@ public class Ejercicio2 {
 		
 		int opcion=Integer.parseInt(JOptionPane.showInputDialog(menu));
 		if (opcion<1 || opcion>7) {
-			JOptionPane.showMessageDialog(null,"Error.\nNo se pueden introducir casos que no existan.");
+			JOptionPane.showMessageDialog(null,"Error!!\nNo se pueden introducir casos que no existan.");
 			System.exit(0);
 		}
 		float num1=Float.parseFloat(JOptionPane.showInputDialog("Introduzca primer numero: "));
