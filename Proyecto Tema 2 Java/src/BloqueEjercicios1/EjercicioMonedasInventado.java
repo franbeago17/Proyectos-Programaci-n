@@ -23,7 +23,6 @@ public class EjercicioMonedasInventado {
 		int moneda1=resto5;
 		int resto=0;
 		if (vuelta>100) {
-			resto=resto-1;
 			System.out.println("\nMonedas de 100: "+moneda100+"\n"
 					+ "Monedas de 50: "+moneda50+"\n"
 							+ "Monedas de 25: "+moneda25+"\n"

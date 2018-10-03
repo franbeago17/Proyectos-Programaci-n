@@ -11,7 +11,7 @@ public class Ejercicio2 {
 				+ "3.- Multiplicacion de dos numeros.\n"
 				+ "4.- Division de dos numeros.\n"
 				+ "5.- Raiz de un numero.\n"
-				+ "6.- Ra√≠z n-esima de un numero.\n"
+				+ "6.- Rai≠z n-esima de un numero.\n"
 				+ "7.- Potencia de un numero.\n"
 				+ "8.- Modulo entre dos numeros";
 		
