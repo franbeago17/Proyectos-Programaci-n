@@ -11,12 +11,13 @@ public class Ejercicio2 {
 				+ "3.- Multiplicacion de dos numeros.\n"
 				+ "4.- Division de dos numeros.\n"
 				+ "5.- Raiz de un numero.\n"
-				+ "6.- Potencia de un numero.\n"
-				+ "7.- Modulo entre dos numeros";
+				+ "6.- Raíz n-esima de un numero.\n"
+				+ "7.- Potencia de un numero.\n"
+				+ "8.- Modulo entre dos numeros";
 		
 		
 		int opcion=Integer.parseInt(JOptionPane.showInputDialog(menu));
-		if (opcion<1 || opcion>7) {
+		if (opcion<1 || opcion>8) {
 			JOptionPane.showMessageDialog(null,"Error!!\nNo se pueden introducir casos que no existan.");
 			System.exit(0);
 		}
@@ -29,31 +30,37 @@ public class Ejercicio2 {
 		float raiz=(float)Math.sqrt(num1);
 		float potencia=(float)Math.pow(num1, num2);
 		float modulo=num1%num2;
+		float raiznesima=(float) Math.pow(num2, (float)(1/num1));
+		String mensaje="";
 		
 		switch (opcion) {
 		case 1: //suma de dos numeros
-			JOptionPane.showMessageDialog(null, "El resultado es "+suma);
+			mensaje="El resultado es: "+suma;
 			break;
 		case 2: //resta de dos numeros
-			JOptionPane.showMessageDialog(null, "El resultado es "+resta);
+			mensaje="El resultado es: "+resta;
 			break;
 		case 3: //multiplicacion de dos numeros
-			JOptionPane.showMessageDialog(null, "El resultado es "+multiplicacion);
+			mensaje="El resultado es: "+multiplicacion;
 			break;
 		case 4: //division de dos numeros
-			JOptionPane.showMessageDialog(null, "El resultado es "+division);
+			mensaje="El resultado es: "+division;
 			break;
 		case 5: //raiz de dos numeros
-			JOptionPane.showMessageDialog(null, "El resultado es "+raiz);
+			mensaje="El resultado es: "+raiz;
 			break;
-		case 6: //potencia de dos numeros
-			JOptionPane.showMessageDialog(null, "El resultado es "+potencia);
+		case 6: //raiz n-esima de dos numeros
+			mensaje="El resultado es: "+raiznesima;
 			break;
-		case 7: //modulo de dos numeros
-			JOptionPane.showMessageDialog(null, "El resultado es "+modulo);
+		case 7: //potencia de dos numeros
+			mensaje="El resultado es: "+potencia;
+			break;
+		case 8: //modulo de dos numeros
+			mensaje="El resultado es: "+modulo;
+
 			break;
 		}
-
+		JOptionPane.showMessageDialog(null, mensaje);
 	}
 
 }
